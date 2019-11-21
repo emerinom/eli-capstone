@@ -46,6 +46,7 @@ Co2 Emissions, date, precipitations amount, lat, long
 The Original AIRS HDF contains following datasets:
 
 With the Script read_data_<>.py data will be filtered and cleanned. For our purposes the field called DATAFIELD_NAME = 'CO2ret' will be filtered, which is the needed value out of the frame. 
+
 For both datasets the routine for filtering -9.999 values is used,
 
         attrs = data3D.attributes(full=1)
@@ -76,7 +77,14 @@ With  the used of Spark data will be read out of  CSV and HDF Files into data fr
 
 
 ### Use of resulting data
+#### Data VisualizationS
 
+The resulting csv files have been imported in Tableau to generate following dashboards:
+
+![Precipitation Average/Month from 2000 till 2019](blog3.jpg)
+![Identification of months with the highest and lowest precipitation values](blog2.jpg)
+![Standart Deviation of the obtained results of precipitation measurements](blog4.jpg)
+![Co2 Emissions](blog1.jpg)
 #### The obtained results are suitable for further visual analysis with regards to:
 
 Precipitations and Co2 average monthly and yearly
