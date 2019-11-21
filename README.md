@@ -42,7 +42,6 @@ The data from this dataset could
 
 The data from both directories AIRS and GPM will be scanned to gather the needed information:
 Co2 Emissions, date, precipitations amount, lat, long  
-
 The Original AIRS HDF contains following datasets:
 
 With the Script read_data_<>.py data will be filtered and cleanned. For our purposes the field called DATAFIELD_NAME = 'CO2ret' will be filtered, which is the needed value out of the frame. 
@@ -81,10 +80,10 @@ With  the used of Spark data will be read out of  CSV and HDF Files into data fr
 
 The resulting csv files have been imported in Tableau to generate following dashboards:
 
-![Precipitation Average/Month from 2000 till 2019](blog3.jpg)
-![Identification of months with the highest and lowest precipitation values](blog2.jpg)
-![Standart Deviation of the obtained results of precipitation measurements](blog4.jpg)
-![Co2 Emissions](blog1.jpg)
+![Precipitation Average/Month from 2000 till 2019](blog3.png)
+![Identification of months with the highest and lowest precipitation values](blog2.png)
+![Standart Deviation of the obtained results of precipitation measurements](blog4.png)
+![Co2 Emissions](blog1.png)
 #### The obtained results are suitable for further visual analysis with regards to:
 
 Precipitations and Co2 average monthly and yearly
